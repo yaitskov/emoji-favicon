@@ -70,7 +70,7 @@
               in
               prev.lib.trivial.pipe emoji-favicon
                 (with prev.haskell.lib; [
-                  dontHaddock
+                  # dontHaddock
                   enableStaticLibraries
                   disableLibraryProfiling
                 ]);
